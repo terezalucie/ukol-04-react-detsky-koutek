@@ -14,7 +14,7 @@ export const CenterDetail = () => {
             setIdCenter(json.data)
         }
         fetchCenterId()
-    }, [idCenter])
+    }, [id])
 
     return( 
         <>
